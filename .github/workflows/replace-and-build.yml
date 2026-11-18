@@ -20,24 +20,39 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Extract project
+      - name: Extract new K-Clock project
         run: |
           test -f K-clock-widgets.zip
           mkdir -p /tmp/project
           unzip -q K-clock-widgets.zip -d /tmp/project
+
           SRC=$(find /tmp/project -name settings.gradle -printf '%h\n' | head -1)
           test -n "$SRC"
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
       - name: Replace old project files
         run: |
-          rsync -a --delete --exclude='.git' --exclude='.github' --exclude='K-clock-widgets.zip' "$SRC/" ./
+          rsync -a --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='K-clock-widgets.zip' \
+            "$SRC/" ./
+
+      - name: Commit updated project safely
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add -A
+
           if ! git diff --cached --quiet; then
             git commit -m "Update K-Clock Widgets source [skip ci]"
-            git push origin HEAD:${GITHUB_REF_NAME}
+
+            git fetch origin "+refs/heads/${GITHUB_REF_NAME}:refs/remotes/origin/${GITHUB_REF_NAME}"
+
+            git rebase "origin/${GITHUB_REF_NAME}"
+
+            git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
 
       - name: Set up Java 17
@@ -59,3 +74,4 @@ jobs:
         with:
           name: K-Clock-Widgets-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+          
