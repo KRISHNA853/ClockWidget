@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AuraProvider" android:exported="true" android:label="Aura">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_aura" />
+        </receiver>
+        <receiver android:name=".HackerProvider" android:exported="true" android:label="Hacker Terminal">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_hacker" />
+        </receiver>
+        <receiver android:name=".NeonProvider" android:exported="true" android:label="Neon Night">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_neon" />
+        </receiver>
+        <receiver android:name=".MatrixProvider" android:exported="true" android:label="Matrix Strip">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_matrix" />
+        </receiver>
+        <receiver android:name=".GlassProvider" android:exported="true" android:label="Glass Dark">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_glass" />
+        </receiver>
+        <receiver android:name=".SunsetProvider" android:exported="true" android:label="Sunset">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_sunset" />
+        </receiver>
+        <receiver android:name=".OceanProvider" android:exported="true" android:label="Ocean Stack">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_ocean" />
+        </receiver>
+        <receiver android:name=".CyberpunkProvider" android:exported="true" android:label="Cyberpunk Yellow">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_cyberpunk" />
+        </receiver>
+        <receiver android:name=".HackersplitProvider" android:exported="true" android:label="Hacker Split">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_hackersplit" />
+        </receiver>
+        <receiver android:name=".VaporProvider" android:exported="true" android:label="Vaporwave">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_vapor" />
+        </receiver>
+        <receiver android:name=".MidnightProvider" android:exported="true" android:label="Midnight Sky">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_midnight" />
+        </receiver>
+        <receiver android:name=".MintProvider" android:exported="true" android:label="Mint Pop">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_mint" />
+        </receiver>
+        <receiver android:name=".RetroProvider" android:exported="true" android:label="Retro Pixel">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_retro" />
+        </receiver>
+        <receiver android:name=".AuroraProvider" android:exported="true" android:label="Aurora">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_aurora" />
+        </receiver>
+        <receiver android:name=".LavaProvider" android:exported="true" android:label="Lava">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_lava" />
+        </receiver>
+        <receiver android:name=".GoldProvider" android:exported="true" android:label="Gold Luxe">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_gold" />
+        </receiver>
+        <receiver android:name=".GamerProvider" android:exported="true" android:label="Gamer RGB">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_gamer" />
+        </receiver>
+        <receiver android:name=".DraculaProvider" android:exported="true" android:label="Dracula Shell">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_dracula" />
+        </receiver>
+        <receiver android:name=".CandyProvider" android:exported="true" android:label="Candy Pop">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_candy" />
+        </receiver>
+        <receiver android:name=".MonoProvider" android:exported="true" android:label="Mono Dark">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_mono" />
+        </receiver>
+        <receiver android:name=".IceProvider" android:exported="true" android:label="Ice">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_ice" />
+        </receiver>
+        <receiver android:name=".ToxicProvider" android:exported="true" android:label="Toxic Lime">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_toxic" />
+        </receiver>
+        <receiver android:name=".GalaxyProvider" android:exported="true" android:label="Galaxy">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_galaxy" />
+        </receiver>
+        <receiver android:name=".FunProvider" android:exported="true" android:label="Fun Emoji">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_fun" />
+        </receiver>
+        <receiver android:name=".RedalertProvider" android:exported="true" android:label="Red Alert">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_redalert" />
+        </receiver>
+    </application>
+</manifest>

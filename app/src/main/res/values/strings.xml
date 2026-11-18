@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Krishna Clock Hub</string>
+    <string name="desc_aura">Aura - customizable clock with 12h and 24h time</string>
+    <string name="desc_hacker">Hacker Terminal - customizable clock with 12h and 24h time</string>
+    <string name="desc_neon">Neon Night - customizable clock with 12h and 24h time</string>
+    <string name="desc_matrix">Matrix Strip - customizable clock with 12h and 24h time</string>
+    <string name="desc_glass">Glass Dark - customizable clock with 12h and 24h time</string>
+    <string name="desc_sunset">Sunset - customizable clock with 12h and 24h time</string>
+    <string name="desc_ocean">Ocean Stack - customizable clock with 12h and 24h time</string>
+    <string name="desc_cyberpunk">Cyberpunk Yellow - customizable clock with 12h and 24h time</string>
+    <string name="desc_hackersplit">Hacker Split - customizable clock with 12h and 24h time</string>
+    <string name="desc_vapor">Vaporwave - customizable clock with 12h and 24h time</string>
+    <string name="desc_midnight">Midnight Sky - customizable clock with 12h and 24h time</string>
+    <string name="desc_mint">Mint Pop - customizable clock with 12h and 24h time</string>
+    <string name="desc_retro">Retro Pixel - customizable clock with 12h and 24h time</string>
+    <string name="desc_aurora">Aurora - customizable clock with 12h and 24h time</string>
+    <string name="desc_lava">Lava - customizable clock with 12h and 24h time</string>
+    <string name="desc_gold">Gold Luxe - customizable clock with 12h and 24h time</string>
+    <string name="desc_gamer">Gamer RGB - customizable clock with 12h and 24h time</string>
+    <string name="desc_dracula">Dracula Shell - customizable clock with 12h and 24h time</string>
+    <string name="desc_candy">Candy Pop - customizable clock with 12h and 24h time</string>
+    <string name="desc_mono">Mono Dark - customizable clock with 12h and 24h time</string>
+    <string name="desc_ice">Ice - customizable clock with 12h and 24h time</string>
+    <string name="desc_toxic">Toxic Lime - customizable clock with 12h and 24h time</string>
+    <string name="desc_galaxy">Galaxy - customizable clock with 12h and 24h time</string>
+    <string name="desc_fun">Fun Emoji - customizable clock with 12h and 24h time</string>
+    <string name="desc_redalert">Red Alert - customizable clock with 12h and 24h time</string>
+</resources>

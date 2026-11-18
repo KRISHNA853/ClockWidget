@@ -1,0 +1,13 @@
+<resources>
+    <item name="root" type="id" />
+    <item name="bg" type="id" />
+    <item name="p1" type="id" />
+    <item name="p2" type="id" />
+    <item name="p3" type="id" />
+    <item name="s1" type="id" />
+    <item name="s2" type="id" />
+    <item name="s3" type="id" />
+    <item name="a1" type="id" />
+    <item name="a2" type="id" />
+    <item name="a3" type="id" />
+</resources>
