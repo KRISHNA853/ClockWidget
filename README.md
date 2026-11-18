@@ -1,114 +1,156 @@
 <div align="center">
 
-# 🕒 Krishna Clock Hub
+# ◷ K-Clock Widgets
 
-### 25 customizable digital clock widgets for Android
-**12-hour + 24-hour • Gradients • Hacker / Neon / Minimal themes • Fully editable**
+### Make every minute look yours.
 
-![Platform](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Widgets](https://img.shields.io/badge/Widgets-25-blueviolet?style=for-the-badge)
-![Built with](https://img.shields.io/badge/Built%20with-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)
+A customisable Android clock-widget collection with expressive gradients, carefully tuned colour palettes and a clean dark design.
 
-**Made with ❤️ by [Krishna](https://instagram.com/krishnaxvis)**
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Build](https://img.shields.io/badge/Build-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Widgets](https://img.shields.io/badge/Widget_styles-29-9B75E8?style=for-the-badge)](#-widget-gallery)
+
+**Designed & crafted with ♥ by [Krishna](https://www.instagram.com/krishnaxvis/)**
 
 </div>
 
 ---
 
-## ✨ Features
+## ✦ Overview
 
-- 🕐 Every widget shows **12-hour and 24-hour** time, plus the date
-- 🎨 **25 unique styles**: hacker terminal, neon, cyberpunk, glass, gradients, emoji and more
-- 🖌️ **Fully editable**: gradient colors, text color, accent color, angle, corner radius, patterns, neon border
-- 🎲 One-tap **quick gradients** and a **random gradient** button
-- ➕ **Add to home** button right inside the app
-- 👆 Tap a widget to open your Clock app
-- 🪶 Tiny, no ads, no internet permission, no tracking
+K-Clock Widgets brings a collection of Android home-screen clocks into one lightweight app. Choose a style, tune its colours and details, preview the look, then add it to your launcher.
 
-## 🧩 Widget Styles
+- **29 clock styles** — from AMOLED minimal to neon, gradient and playful designs.
+- **Personal styling** — gradient colours, text and accent colours, angle, corner radius, patterns and borders.
+- **Quick palettes** — curated presets plus a random gradient option.
+- **Home-screen ready** — add supported widgets directly from the app or from your launcher.
+- **Creator support** — Instagram and UPI support links live in About & Support, away from the main widget gallery.
 
-| Category | Styles |
+## ✨ Highlights
+
+| Feature | Details |
 |---|---|
-| 💻 **Hacker / Tech** | Hacker Terminal, Hacker Split, Matrix Strip, Red Alert, Dracula Shell, Retro Pixel |
-| ⚡ **Neon / Gamer** | Neon Night, Cyberpunk Yellow, Gamer RGB, Toxic Lime |
-| 🌈 **Gradient / Aesthetic** | Aura, Sunset, Vaporwave, Aurora, Galaxy, Lava, Mint Pop, Ocean Stack, Candy Pop |
-| 🖤 **Minimal / Premium** | Glass Dark, Mono Dark, Gold Luxe, Ice, Midnight Sky |
-| 😝 **Fun** | Fun Emoji |
+| Time display | 12-hour / 24-hour formats supported by the existing widget implementation |
+| Colour controls | HEX colours for gradient start/end, text and accent |
+| Gradient | Adjustable direction / angle |
+| Surface | Corner radius and optional border |
+| Patterns | None, grid, dots, scan and stars (where supported by the renderer) |
+| Presets | Curated palettes and random colour combinations |
+| Widget actions | Save design, reset style and add widget to the home screen |
+| App appearance | Dark AMOLED-inspired gallery and dedicated preferences / support area |
 
-Sizes: **4×2**, **4×1 (strip)** and **2×2**.
+## 🎨 Widget gallery
 
-## 🖌️ Customize Your Widget
+The project includes the original styles plus four additional visual variations.
 
-1. Open the **Krishna Clock Hub** app
-2. Tap any style
-3. Change colors, angle, corner radius, pattern or border
-4. Tap **Save**. Your home screen widgets update instantly
-5. Tap **Add to home** to place it on your screen
+| Collection | Styles |
+|---|---|
+| Hacker / Tech | Hacker Terminal, Hacker Split, Matrix Strip, Red Alert, Dracula Shell, Retro Pixel |
+| Neon / Gamer | Neon Night, Cyberpunk Yellow, Gamer RGB, Toxic Lime |
+| Gradient / Aesthetic | Aura, Sunset, Vaporwave, Aurora, Galaxy, Lava, Mint Pop, Ocean Stack, Candy Pop |
+| Minimal / Premium | Glass Dark, Mono Dark, Gold Luxe, Ice, Midnight Sky |
+| Fun | Fun Emoji |
+| New additions | Lavender Glass, Carbon Minimal, Arctic Glow, Ember Luxe |
 
-Patterns available: `none` · `grid` · `dots` · `scan` · `stars`
+> Widget sizes depend on each provider's widget metadata and the launcher. Resize options may vary by device.
 
-## 📲 Install
+## 🖌️ Customise a widget
 
-1. Open the **Actions** tab of this repository
-2. Open the latest green ✅ run
-3. Download **ClockWidget-APK** from *Artifacts* and extract it
-4. Install `app-debug.apk` (allow *Install unknown apps* if asked)
-5. Long-press your home screen → **Widgets** → **Krishna Clock Hub**
+1. Open **K-Clock Widgets**.
+2. Select a widget style from the gallery.
+3. Choose a gradient preset or enter your own HEX colours.
+4. Adjust text colour, accent colour, gradient angle and corner radius.
+5. Select a background pattern and optional border.
+6. Save your design, or use **Add to home**.
+7. To change it later, open the same style and save the updated settings.
 
-## 🏗️ Build Without a PC (GitHub Actions)
+## 📱 Install on Android
 
-This project is built entirely on GitHub, so no computer is needed.
+### Option A — Install a built APK
 
-1. Upload `ClockWidget.zip` to the repository root
-2. Keep the workflow file at `.github/workflows/build.yml`
-3. Commit. The **Build APK** workflow starts automatically
-4. When it turns green, download the APK from *Artifacts*
+1. Open the repository's **Actions** tab.
+2. Select **Build K-Clock Widgets APK**.
+3. Run the workflow (or push a commit to trigger it).
+4. When the run completes, download the **K-Clock-Widgets-APK** artifact.
+5. Extract the artifact ZIP and install `app-debug.apk`.
+6. If Android asks, allow installation from the browser or file manager you used.
 
-## 📁 Project Structure
+### Option B — Add a home-screen widget
 
+1. Long-press an empty area of your Android home screen.
+2. Open **Widgets**.
+3. Find **K-Clock Widgets**.
+4. Drag the desired clock style onto the home screen.
+5. Resize it if your launcher supports resizing.
+
+## 🛠️ Build from source
+
+### Requirements
+
+- Android Gradle Plugin **8.7.3**
+- Gradle **8.9**
+- JDK **17**
+- Android SDK / Build Tools for `compileSdk 35`
+
+### Local build
+
+```bash
+git clone https://github.com/KRISHNA853/ClockWidget.git
+cd ClockWidget
+gradle assembleDebug
 ```
-ClockWidget/
-├── .github/workflows/build.yml     # GitHub Actions build
-├── build.gradle
-├── settings.gradle
-└── app/src/main/
-    ├── AndroidManifest.xml
-    ├── java/com/krishna/clockhub/
-    │   ├── MainActivity.java       # customizer app
-    │   ├── Renderer.java           # gradient + pattern engine
-    │   ├── Styles.java             # all 25 style definitions
-    │   ├── Theme.java              # saved user settings
-    │   └── *Provider.java          # one widget provider per style
-    └── res/layout/w_*.xml          # one layout per style
+
+The debug APK is generated at:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
 ```
 
-## ☕ Support My Work
+### GitHub Actions
 
-If you like this project, you can buy me a coffee:
+The repository includes `.github/workflows/build.yml`. It runs on pushes and can also be started manually using `workflow_dispatch`.
 
-**UPI ID:** `krishnakantvishwakrma396@okhdfcbank`
+## 🔐 Privacy
 
-Works with Google Pay, PhonePe, Paytm and any UPI app. 🙏
+The project is designed as an offline-first clock-widget app. The supplied source manifest does not request internet permission. GitHub Actions needs network access during build to download Gradle and Android build dependencies.
 
-## 🔒 License & Permission
+## ☕ Support the creator
 
-**Copyright © 2026 Krishna (KRISHNA853). All Rights Reserved.**
+If you enjoy the project, you can support its development.
 
-This code is **not open source**. You may **not** use, copy, modify, redistribute, publish, sell or build upon any part of this project without my **prior written permission**.
+- Instagram: **[@krishnaxvis](https://www.instagram.com/krishnaxvis/)**
+- UPI ID: `krishnakantvishwakrma396@okhdfcbank`
 
-Viewing the code on GitHub is allowed. For any other use, ask first. See the [LICENSE](LICENSE) file.
+UPI payments are optional. Use the in-app **About & Support** section to open a UPI app or copy the UPI ID.
 
-## 📬 Contact / Ask for Permission
+## ⚙️ Project details
 
-📸 Instagram: [@krishnaxvis](https://instagram.com/krishnaxvis)
+| Item | Value |
+|---|---|
+| App name | K-Clock Widgets |
+| Application ID | `com.krishna.clockhub` |
+| Version | `2.1` |
+| Minimum Android | Android 8.0 (API 26) |
+| Compile SDK | 35 |
+| Target SDK | 35 |
+| Language | Java |
+| Build | GitHub Actions |
 
-Want to use this code, collaborate or suggest a change? Send me a message on Instagram or open an **Issue** or **Pull Request** here. Nothing is changed in this project without my approval.
+## ⚠️ Build status & compatibility note
+
+This source package has been prepared for a GitHub Actions / Gradle build. An actual APK build and on-device test have **not** been run as part of preparing this ZIP. The project currently targets API 35; Android 16 installation/runtime behaviour must be confirmed with a successful build and device test.
+
+## 📄 License
+
+See [`LICENSE`](LICENSE) for the project's license terms.
 
 ---
 
 <div align="center">
 
-⭐ **Star this repo if you like it!** ⭐
+**K-Clock Widgets** · Time, styled your way.
+
+Made with ♥ by [Krishna](https://www.instagram.com/krishnaxvis/)
 
 </div>

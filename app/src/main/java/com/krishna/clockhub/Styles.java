@@ -53,6 +53,10 @@ public final class Styles {
         add("galaxy", "Galaxy", GalaxyProvider.class, R.layout.w_galaxy, 4, 2, 0xFF0F0C29, 0xFF302B63, 45, 0xFFFFFFFF, 0xFFA78BFA, "stars", false, 28);
         add("fun", "Fun Emoji", FunProvider.class, R.layout.w_fun, 4, 2, 0xFFFFDE59, 0xFFFF914D, 45, 0xFF3B1D00, 0xFF7A2E00, "dots", false, 30);
         add("redalert", "Red Alert", RedalertProvider.class, R.layout.w_redalert, 4, 2, 0xFF1A0000, 0xFF4D0000, 45, 0xFFFF3B3B, 0xFFFFB000, "grid", true, 12);
+        add("lavender", "Lavender Glass", LavenderProvider.class, R.layout.w_lavender, 4, 2, 0xFF211A3A, 0xFF9B7BCE, 35, 0xFFFFFFFF, 0xFFE1C9FF, "none", true, 28);
+        add("carbon", "Carbon Minimal", CarbonProvider.class, R.layout.w_carbon, 4, 2, 0xFF111318, 0xFF343943, 90, 0xFFF4F5F7, 0xFFB7C2D0, "grid", false, 18);
+        add("arctic", "Arctic Glow", ArcticProvider.class, R.layout.w_arctic, 4, 2, 0xFFB7D7F2, 0xFFEAF6FF, 45, 0xFF17324D, 0xFF3478B8, "none", false, 26);
+        add("ember", "Ember Luxe", EmberProvider.class, R.layout.w_ember, 4, 2, 0xFF24120F, 0xFF9C3D27, 35, 0xFFFFE3D2, 0xFFFF9A70, "dots", true, 24);
     }
 
     public static Def get(String key) {

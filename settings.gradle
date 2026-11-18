@@ -14,5 +14,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "ClockHub"
+rootProject.name = "K-Clock-Widgets"
 include ':app'

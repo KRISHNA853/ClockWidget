@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Krishna Clock Hub</string>
+    <string name="app_name">K-Clock Widgets</string>
     <string name="desc_aura">Aura - customizable clock with 12h and 24h time</string>
     <string name="desc_hacker">Hacker Terminal - customizable clock with 12h and 24h time</string>
     <string name="desc_neon">Neon Night - customizable clock with 12h and 24h time</string>
@@ -25,4 +25,9 @@
     <string name="desc_galaxy">Galaxy - customizable clock with 12h and 24h time</string>
     <string name="desc_fun">Fun Emoji - customizable clock with 12h and 24h time</string>
     <string name="desc_redalert">Red Alert - customizable clock with 12h and 24h time</string>
+
+    <string name="desc_lavender">Lavender Glass - customizable clock with 12h and 24h time</string>
+    <string name="desc_carbon">Carbon Minimal - customizable clock with 12h and 24h time</string>
+    <string name="desc_arctic">Arctic Glow - customizable clock with 12h and 24h time</string>
+    <string name="desc_ember">Ember Luxe - customizable clock with 12h and 24h time</string>
 </resources>

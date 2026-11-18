@@ -113,5 +113,21 @@
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_redalert" />
         </receiver>
+        <receiver android:name=".LavenderProvider" android:exported="true" android:label="Lavender Glass">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_lavender" />
+        </receiver>
+        <receiver android:name=".CarbonProvider" android:exported="true" android:label="Carbon Minimal">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_carbon" />
+        </receiver>
+        <receiver android:name=".ArcticProvider" android:exported="true" android:label="Arctic Glow">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_arctic" />
+        </receiver>
+        <receiver android:name=".EmberProvider" android:exported="true" android:label="Ember Luxe">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/info_ember" />
+        </receiver>
     </application>
 </manifest>
