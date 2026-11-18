@@ -10,7 +10,7 @@
 ![Built with](https://img.shields.io/badge/Built%20with-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)
 
-**Made with ❤️ by [Krishna](https://instagram.com/krishna.vis)**
+**Made with ❤️ by [Krishna](https://instagram.com/krishnaxvis)**
 
 </div>
 
@@ -101,7 +101,7 @@ Viewing the code on GitHub is allowed. For any other use, ask first. See the [LI
 
 ## 📬 Contact / Ask for Permission
 
-📸 Instagram: [@krishna.vis](https://instagram.com/krishna.vis)
+📸 Instagram: [@krishna.vis](https://instagram.com/krishnaxvis)
 
 Want to use this code, collaborate or suggest a change? Send me a message on Instagram or open an **Issue** or **Pull Request** here. Nothing is changed in this project without my approval.
 
