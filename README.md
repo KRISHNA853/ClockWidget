@@ -101,7 +101,7 @@ Viewing the code on GitHub is allowed. For any other use, ask first. See the [LI
 
 ## 📬 Contact / Ask for Permission
 
-📸 Instagram: [@krishna.vis](https://instagram.com/krishnaxvis)
+📸 Instagram: [@krishnaxvis](https://instagram.com/krishnaxvis)
 
 Want to use this code, collaborate or suggest a change? Send me a message on Instagram or open an **Issue** or **Pull Request** here. Nothing is changed in this project without my approval.
 
